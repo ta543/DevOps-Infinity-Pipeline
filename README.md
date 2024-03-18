@@ -1,4 +1,4 @@
-# 🚀 Advanced DevOps Project with GitHub Actions 🚀
+# 🚀 Infinity Pipeline 🚀
 
 This project showcases an advanced DevOps pipeline, utilizing GitHub Actions for Continuous Integration (CI), Continuous Deployment (CD), security scanning, and monitoring. It features infrastructure as code (IaC) practices with Terraform, configuration management with Ansible, and a containerized Python Flask application, aiming to demonstrate best practices in a DevOps workflow.
 
