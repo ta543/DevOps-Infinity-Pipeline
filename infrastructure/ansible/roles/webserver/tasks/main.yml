@@ -1,0 +1,13 @@
+- name: Install nginx
+  apt:
+    name: nginx
+    state: present
+  notify:
+    - restart nginx
+
+- name: Deploy website configuration
+  template:
+    src: nginx.conf.j2
+    dest: /etc/nginx/sites-available/default
+  notify:
+    - restart nginx

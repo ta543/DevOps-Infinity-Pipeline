@@ -1,0 +1,13 @@
+name: Monitoring
+
+on:
+  workflow_dispatch:
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check production health
+      run: |
+        echo "Run health checks against your production environment"
+        echo "For example, you could make HTTP requests to your service's health endpoint"
